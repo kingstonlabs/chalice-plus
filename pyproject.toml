@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "chalice-plus"
+version = "0.0.1"
+authors = [
+  { name="Kingston Labs", email="chalice_plus@kingstonlabs.co.uk" },
+]
+description = "Extension for Chalice, adding support for class-based views, SQLAlchemy and more..."
+readme = "README.md"
+dependencies = ["boto3", "chalice", "marshmallow-sqlalchemy", "alembic", "click"]
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/kingstonlabs/chalice-plus"
+"Bug Tracker" = "https://github.com/kingstonlabs/chalice-plus/issues"
+
+[project.scripts]
+chalice_plus = "chalice_plus.cli:cli"

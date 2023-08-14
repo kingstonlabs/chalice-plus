@@ -1,0 +1,1 @@
+# test allowed_methods
