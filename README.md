@@ -23,7 +23,7 @@ Features include:
 You can install `chalice_plus` with pip:
 
 ```
-$ pip install chalice_plus
+$ pip install chalice-plus
 ```
 
 Attach an engine to the app in `app.py`:
